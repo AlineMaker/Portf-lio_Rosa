@@ -1,40 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Portfolio_Rosa</title>
-    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Julia Huang</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
   </head>
-  <body>
-    <header>
-      <div class="p-6">
-        <nav class="p-4 bg-[#FADCD9] rounded-3xl shawdow-2xl">
-          <div class="container py-5 flex justify-between">
-            <div class="flex items-center gap-2">
-              <span class="italic text-2xl text-gray-600 font-sering"
-                >JULIA </span
-              ><span class="text-2xl text-black-200 font-sering">HUANG</span>
-            </div>
-
-            <ul class="hidden md:flex space-x-10">
-              <li>
-                <a href="#">PROJECTS</a>
-              </li>
-              <li>
-                <a href="#">ABOUT</a>
-              </li>
-              <li>
-                <a href="#">CONTACT</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+  <body class="bg-[#FDEEEE] p-8">
+    <!-- Header -->
+    
+    <header class="w-[1392px] h-[101px] bg-[#FCDDDD] rounded-2xl mb-8 px-8 flex items-center justify-between">
+      <h1 class="text-lg italic text-gray-800 font-medium">JULIA <span class="not-italic font-semibold text-black">HUANG</span></h1>
+      <nav class="space-x-6 text-sm text-gray-700">
+        <a href="#">PROJECTS</a>
+        <a href="#">ABOUT</a>
+        <a href="#">CONTACT</a>
+      </nav>
     </header>
-    <main>main</main>
-    <footer>footer</footer>
-  </body>
-</html>
+
+ <!-- Grid Layout com largura 1392 abaixo do header -->
+ <main class="w-[1392px] grid grid-cols-[565px_330px_447px] gap-x-7 items-start">
+  <!-- Coluna 1 -->
+  <div class="flex flex-col gap-6">
+    <!-- Texto principal -->
+    <div class="bg-[#FCDDDD] rounded-2xl p-6 w-[565px] h-[479px] flex items-center">
+      <h2 class="text-3xl font-bold text-black leading-snug">Artist Redefining <span class="italic font-normal text-gray-700">Architecture</span> <span class="font-semibold">with AI-Driven Design</span></h2>
+    </div>
+
+    <!-- Sobre Julia -->
+    <div class="bg-[#FCDDDD] rounded-2xl p-6 text-sm text-gray-800 w-[448px] h-[351px]">
+      <p>
+        Julia Huang is an innovative AI artist, renowned for blending
+        cutting-edge technology with creative expression. Based in LA, she
+        crafts unique digital art experiences accessible globally.
+      </p>
+    </div>
+  </div>
+
+  <!-- Coluna 2 -->
+  <div class="flex flex-col gap-6">
+    <!-- Foto retrato -->
+    <div class="rounded-2xl overflow-hidden w-[330px] h-[476px]">
+      <img src="./img/PORTRAIT.png" alt="Portrait" class="w-full h-full object-cover rounded-2xl" />
+    </div>
+
+    <!-- Contato -->
+    <div class="bg-[#F89C9C] rounded-2xl p-6 flex flex-col justify-between text-black w-[448px] h-[351px]">
+      <div class="flex justify-between items-center mb-2 text-sm">
+        <span class="text-gray-700">Have some questions?</span>
+        <span class="text-xl">&rarr;</span>
+      </div>
+      <h3 class="text-2xl font-semibold">Contact me</h3>
+    </div>
+  </div>
+
+  <!-- Coluna 3: Projeto 1 + Footer -->
+  <div class="flex flex-col items-end gap-4">
+    <div class="bg-[#FCDDDD] rounded-2xl p-4 w-[447px] h-[726px]">
+      <div class="flex justify-between items-center mb-2">
+        <span class="font-medium text-sm text-gray-800">Musea</span>
+        <span class="text-gray-500">&rarr;</span>
+      </div>
+      <img src="./img/ITEM 1.png" alt="Musea Project" class="rounded-xl w-full mb-3 object-cover" />
+      <ul class="text-sm text-gray-700 space-y-2">
+        <li>Elara</li>
+        <li>Verve</li>
+        <li>Zephyr</li>
+      </ul>
+    </div>
+
+      <!-- Footer -->
+      <div class="mt-4 ml-auto w-[448px] h-[101px]">
+        <footer class="bg-[#FCDDDD] rounded-2xl px-6 py-3 h-full flex items-center justify-end gap-6 text-sm text-gray-700">
+          <a href="#">INSTAGRAM</a>
+          <a href="#">TWITTER</a>
+          <a href="#">LINKEDIN</a>
+        </footer>
+      </div>
+    </body>
+  </html>

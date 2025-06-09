@@ -1,1 +1,280 @@
 @tailwind base;
+
+<div class="p-6">
+<nav class="p-4 w-100 h-full bg-[#FADCD9] rounded-3xl">
+  <img src="" alt="moça de cabelo rosa " />
+  <p>
+    <span class="text-2xl text-black-200 font-sering">
+      Artist Redefining</span
+    >
+    <span class="italic text-2xl text-gray-600 font-sering">
+      Architecture
+    </span>
+    <span class="text-2xl text-black-200 font-sering"
+      >with AI-Driven Design</span
+    >
+  </p>
+</na>
+<div>
+<img src="./img/PORTRAIT.png" alt="moça de cabelo rosa " />
+</div>
+<div>
+<img src="./img/PORTRAIT.png" alt="moça de cabelo rosa " />
+</div>
+<div>
+<img src="./img/PORTRAIT.png" alt="moça de cabelo rosa " />
+</div>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio_Rosa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="p-6">
+        <nav class="h-[101px] bg-[#FADCD9] rounded-2xl shadow-2xl">
+          <div class="container mx-auto py-9 flex justify-between">
+            <div class="mx-5 flex gap-2">
+              <h1 class="italic text-2xl text-gray-600 font-serif">JULIA</h1>
+              <span class="text-2xl text-black font-serif">HUANG</span>
+            </div>
+            <ul class="hidden md:flex space-x-10 text-gray-700">
+              <li><a href="#">PROJECTS</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-6">
+      <section class="grid grid-cols-3 gap-8">
+        <!-- Bloco de texto -->
+        <div
+          class="w-[565px] h-[479px] bg-[#FADCD9] rounded-2xl p-5 flex flex-col justify-center"
+        >
+          <span class="text-2xl text-black font-serif">Artist Redefining</span>
+          <span class="italic text-2xl text-gray-600 font-serif"
+            >Architecture</span
+          >
+          <span class="text-2xl text-black font-serif"
+            >with AI-Driven Design</span
+          >
+        </div>
+
+        <!-- Imagem central -->
+        <div class="w-[330px] h-[476px] overflow-hidden rounded-2xl">
+          <img
+            src="./img/PORTRAIT.png"
+            alt="moça cabelo rosa"
+            class="w-full h-full object-cover"
+          />
+        </div>
+
+        <!-- Imagem lateral maior -->
+        <div
+          class="w-[447px] h-[726px] bg-[#FADCD9] rounded-2xl overflow-hidden"
+        >
+          <img
+            src="./img/PORTRAIT.png"
+            alt="moça cabelo rosa"
+            class="w-full h-full object-cover"
+          />
+        </div>
+
+        <!-- Segunda fileira -->
+        <div class="w-[330px] h-[476px] overflow-hidden rounded-2xl">
+          <img
+            src="./img/PORTRAIT.png"
+            alt="moça cabelo rosa"
+            class="w-full h-full object-cover"
+          />
+        </div>
+
+        <div class="w-[330px] h-[476px] overflow-hidden rounded-2xl">
+          <img
+            src="./img/PORTRAIT.png"
+            alt="moça cabelo rosa"
+            class="w-full h-full object-cover"
+          />
+        </div>
+
+        <div class="w-[330px] h-[476px] overflow-hidden rounded-2xl">
+          <img
+            src="./img/PORTRAIT.png"
+            alt="moça cabelo rosa"
+            class="w-full h-full object-cover"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-12 text-center text-gray-500">footer</footer>
+  </body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Portfolio_Rosa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="p-6">
+        <nav class="h-[101px] bg-[#FADCD9] rounded-2xl shawdow-2xl">
+          <div class="container mx-auto py-9 flex justify-between">
+            <div class="mx-5 flex gap-2">
+              <h1 class="italic text-2xl text-gray-600 font-sering">JULIA</h1>
+              <span class="text-2xl text-black-200 font-sering">HUANG</span>
+            </div>
+
+            <ul class="hidden md:flex space-x-10 text-gray-700">
+              <li>
+                <a href="#">PROJECTS</a>
+              </li>
+              <li>
+                <a href="#">ABOUT</a>
+              </li>
+              <li>
+                <a href="#" class="mx-1">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-6">
+      <nav class="grid grid-cols-3 gap-8">
+        <div class="py-50 w-[565px] h-[479px] bg-[#FADCD9] rounded-2xl p-5">
+          <span class="text-2xl text-black-200 font-sering">
+            Artist Redefining</span
+          >
+          <span class="italic text-2xl text-gray-600 font-sering">
+            Architecture
+          </span>
+          <span class="text-2xl text-black-200 font-sering"
+            >with AI-Driven Design</span
+          >
+        </div>
+
+        <div class="w-[330px] h-[476px]">
+          <img src="./img/PORTRAIT.png" alt="moca cabelo rosa" />
+        </div>
+
+        <div class="py-50 w-[447px] h-[726px] bg-[#FADCD9] rounded-2xl">
+          <img src="alt" ="moca cabelo rosa" />
+        </div>
+
+        <div>
+          <img src="./img/PORTRAIT.png" alt="moca cabelo rosa" />
+        </div>
+
+        <div>
+          <img src="./img/PORTRAIT.png" alt="moca cabelo rosa" />
+        </div>
+      </nav>
+    </main>
+    <footer>footer</footer>
+  </body>
+</html>
+   
+
+
+
+
+meu
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Portfolio_Rosa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="p-6">
+        <nav class="h-[101px] bg-[#FADCD9] rounded-2xl shawdow-2xl">
+          <div class="container mx-auto py-9 flex justify-between">
+            <div class="mx-5 flex gap-2">
+              <h1 class="italic text-2xl text-gray-600 font-sering">JULIA</h1>
+              <span class="text-2xl text-black-200 font-sering">HUANG</span>
+            </div>
+
+            <ul class="hidden md:flex space-x-10 text-gray-700">
+              <li>
+                <a href="#">PROJECTS</a>
+              </li>
+              <li>
+                <a href="#">ABOUT</a>
+              </li>
+              <li>
+                <a href="#" class="mx-1">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-6">
+      <nav class="grid grid-cols-3 gap-8">
+        <div class="py-50 w-[565px] h-[479px] bg-[#FADCD9] rounded-2xl p-5">
+          <span class="text-2xl text-black-200 font-sering">
+            Artist Redefining</span
+          >
+          <span class="italic text-2xl text-gray-600 font-sering">
+            Architecture
+          </span>
+          <span class="text-2xl text-black-200 font-sering"
+            >with AI-Driven Design</span
+          >
+        </div>
+
+        <div class="w-[330px] h-[476px]">
+          <img src="./img/PORTRAIT.png" alt="moca cabelo rosa" />
+        </div>
+
+        <div class="py-50 w-[447px] h-[726px] bg-[#FADCD9] rounded-2xl">
+          <img src="alt" ="moca cabelo rosa" />
+        </div>
+
+        <div>
+          <img src="./img/PORTRAIT.png" alt="moca cabelo rosa" />
+        </div>
+
+        <div>
+          <img src="./img/PORTRAIT.png" alt="moca cabelo rosa" />
+        </div>
+      </nav>
+    </main>
+    <footer>footer</footer>
+  </body>
+</html>
+
