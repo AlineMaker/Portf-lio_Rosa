@@ -14,7 +14,6 @@
   </head>
   <body class="bg-[#FDEEEE] p-8">
     <!-- Header -->
-    
     <header class="w-[1392px] h-[101px] bg-[#FCDDDD] rounded-2xl mb-8 px-8 flex items-center justify-between">
       <h1 class="text-lg italic text-gray-800 font-medium">JULIA <span class="not-italic font-semibold text-black">HUANG</span></h1>
       <nav class="space-x-6 text-sm text-gray-700">
@@ -24,80 +23,93 @@
       </nav>
     </header>
 
- <!-- Grid Layout com largura 1392 abaixo do header -->
- <main class="w-[1392px] grid grid-cols-[565px_330px_447px] gap-x-7 items-start">
-  <!-- Coluna 1 -->
-  <div class="flex flex-col gap-6">
-    <!-- Texto principal -->
-    <div class="bg-[#FCDDDD] rounded-2xl p-6 w-[565px] h-[479px] flex items-center">
-      <h2 class="text-3xl font-bold text-black leading-snug">Artist Redefining <span class="italic font-normal text-gray-700">Architecture</span> <span class="font-semibold">with AI-Driven Design</span></h2>
-    </div>
+    <!-- Grid Layout com largura 1392 abaixo do header -->
+    <main class="w-[1392px] grid grid-cols-[565px_330px_447px] gap-x-7 items-start">
+      <!-- Coluna 1 -->
+      <div class="flex flex-col gap-6">
+        <!-- Texto principal -->
+        <div class="bg-[#FCDDDD] rounded-2xl p-6 w-[565px] h-[479px] flex items-center">
+          <h2 class="text-3xl font-bold text-black leading-snug">
+            Artist Redefining <span class="italic font-normal text-gray-700">Architecture</span> <span class="font-semibold">with AI-Driven Design</span>
+          </h2>
+        </div>
 
-
-
-    <div class="  w-[996px] h-[702px] flex flex-col md:flex-row gap-6">
-
-    <!-- Sobre Julia -->
-    <div class="bg-[#FCDDDD]  rounded-2xl p-6 text-sm text-gray-800 w-[448px] h-[351px]">
-      <p>
-        Julia Huang is an innovative AI artist, renowned for blending
-        cutting-edge technology with creative expression. Based in LA, she
-        crafts unique digital art experiences accessible globally.
-      </p>
-    </div>
-  <!-- Contato -->
-    
-  <div class="bg-[#F89C9C] rounded-2xl p-6 flex flex-col justify-between text-black w-[448px] h-[351px]">
-    <div class="flex justify-between items-center mb-2 text-sm">
-      <span class="text-gray-700">Have some questions?</span>
-      <span class="text-xl">&rarr;</span>
-    </div>
-    <h3 class="text-2xl font-semibold">Contact me</h3>
-  </div>
-  </div>
-</div>
-
-  
-
-
-
-  <!-- Coluna 2 -->
-  <div class="flex flex-col gap-6">
-    <!-- Foto retrato -->
-    <div class="rounded-2xl overflow-hidden w-[330px] h-[476px]">
-      <img src="./img/PORTRAIT.png" alt="Portrait" class="w-full h-full object-cover rounded-2xl" />
-    </div>
-  </div>
-   
-
- 
-  
-  
-
-  
-
-  <!-- Coluna 3: Projeto 1 + Footer -->
-  <div class="flex flex-col items-end gap-4">
-    <div class="bg-[#FCDDDD] rounded-2xl p-4 w-[447px] h-[726px]">
-      <div class="flex justify-between items-center mb-2">
-        <span class="font-medium text-sm text-gray-800">Musea</span>
-        <span class="text-gray-500">&rarr;</span>
+        <div class="w-[996px] h-[702px] flex flex-col md:flex-row gap-6">
+          <!-- Sobre Julia -->
+          <div class="bg-[#FCDDDD] rounded-2xl py-40 p-6 text-sm text-gray-800 w-[448px] h-[351px]">
+            <p>
+              Julia Huang is an innovative AI artist, renowned for blending
+              cutting-edge technology with creative expression. Based in LA, she
+              crafts unique digital art experiences accessible globally.
+            </p>
+          </div>
+          <!-- Contato -->
+          <div class="bg-[#F89C9C] rounded-2xl p-6 flex flex-col justify-between text-black w-[448px] h-[351px]">
+            <div class="flex justify-between items-center mb-2 text-sm">
+              <span class="text-gray-700">Have some questions?</span>
+              <span class="text-xl">&rarr;</span>
+            </div>
+            <h3 class="text-2xl font-semibold">Contact me</h3>
+          </div>
+        </div>
       </div>
-      <img src="./img/ITEM 1.png" alt="Musea Project" class="rounded-xl w-full mb-3 object-cover" />
-      <ul class="text-sm text-gray-700 space-y-2">
-        <li>Elara</li>
-        <li>Verve</li>
-        <li>Zephyr</li>
-      </ul>
-    </div>
 
-      <!-- Footer -->
-      <div class="mt-4 ml-auto w-[448px] h-[101px]">
-        <footer class="bg-[#FCDDDD] rounded-2xl px-6 py-3 h-full flex items-center justify-end gap-6 text-sm text-gray-700">
+      <!-- Coluna 2 -->
+      <div class="flex flex-col gap-6">
+        <!-- Foto retrato -->
+        <div class="rounded-2xl overflow-hidden w-[330px] h-[476px]">
+          <img src="./img/PORTRAIT.png" alt="Portrait" class="w-full h-full object-cover rounded-2xl" />
+        </div>
+      </div>
+
+      <!-- Coluna 3: Projeto 1 + Footer -->
+      <div class="flex flex-col justify-between gap-4 w-[447px] h-[852px]">
+        <!-- Lista de Projetos -->
+        <div class="bg-[#FCDDDD] rounded-2xl p-4 w-full flex-1">
+          <!-- Musea -->
+          <div>
+            <input type="radio" name="project" id="musea" class="peer hidden" />
+            <label for="musea" class="cursor-pointer block font-medium text-xl">Musea</label>
+            <div class="hidden peer-checked:block mt-2">
+              <img src="./img/tela1.png" alt="Musea" class="rounded-xl w-full object-cover" />
+            </div>
+          </div>
+
+          <!-- Elara -->
+          <div>
+            <input type="radio" name="project" id="elara" class="peer hidden" />
+            <label for="elara" class="cursor-pointer block font-medium text-xl">Elara</label>
+            <div class="hidden peer-checked:block mt-2">
+              <img src="./img/tela1.png" alt="Elara" class="rounded-xl w-full object-cover" />
+            </div>
+          </div>
+
+          <!-- Verve -->
+          <div>
+            <input type="radio" name="project" id="verve" class="peer hidden" />
+            <label for="verve" class="cursor-pointer block font-medium text-xl">Verve</label>
+            <div class="hidden peer-checked:block mt-2">
+              <img src="./img/tela1.png" alt="Verve" class="rounded-xl w-full object-cover" />
+            </div>
+          </div>
+
+          <!-- Zephyr -->
+          <div>
+            <input type="radio" name="project" id="zephyr" class="peer hidden" />
+            <label for="zephyr" class="cursor-pointer block font-medium text-xl">Zephyr</label>
+            <div class="hidden peer-checked:block mt-2">
+              <img src="./img/tela1.png" alt="Zephyr" class="rounded-xl w-full object-cover" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-[#FCDDDD] rounded-2xl px-6 py-3 h-[101px] flex items-center justify-center gap-6 text-sm text-gray-700 w-full">
           <a href="#">INSTAGRAM</a>
           <a href="#">TWITTER</a>
           <a href="#">LINKEDIN</a>
         </footer>
       </div>
-    </body>
-  </html>
+    </main>
+  </body>
+</html>
