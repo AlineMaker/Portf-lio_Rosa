@@ -33,4 +33,4 @@ O projeto demonstra domínio em design responsivo, uso de classes utilitárias d
 
 [Aline Alves de Souza](https://github.com/AlineMaker)
 
-[.!](./img/page.png)
+[](./img/page.png)
